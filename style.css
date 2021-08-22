@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 15px;
+}
+
+header{
+background-color: rgb(204,204,204);
+margin-left: 55px;
+margin-right: 55px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 5px;
+padding-bottom: 6px;
+}
+
+input{
+    height: 18px;
+    width: 180px;
+    border: 2px solid black;
+    font-family: Courier;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.headerbtn{
+    width: 60px;
+    height: 20px;
+    background-color: rgb(43,120,228);
+    color: white
+}
+
+.yellowbtn{
+    height: 25px;
+    width: 70px;
+    background-color: rgb(255,217,102);
+    font-family: courier;
+    font-weight: normal;
+    font-size: 10.5px;
+    margin-top: 15px;
+}
+
+.greenbtn{
+    background-color: rgb(147,196,125);
+    height: 25px;
+    width: 150px;
+    font-family: courier;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+button{
+    border: 2px solid black;
+    box-shadow: 1.5px 1.5px black;
+}
+
+.col-left{
+    width: 305px;
+}
+
+.col-right{
+    margin-left: 10px;
+    height: 85px;
+    width: 155px;
+    border: 2px solid black;
+    padding: 9px;
+}
+
+.col-left p{
+    font-family: courier;
+    font-size: 11.5px;
+    padding-left:px;
+    margin-top: 28px;
+}
+
+.col-right p{
+    font-family: courier;
+    font-weight: normal;
+}
+
+.row-1{
+    height: 125px;
+    border: 2px solid black;
+    display: flex;
+    /* padding: 9px; */
+}
+
+.row-2{
+    margin-top: 15px;
+    height: 125px;
+    border: 2px solid black;
+    display: flex;
+    /* padding: 9px; */
+}
+
+.row-1_1{
+    padding: 10px;
+}
+
+.row-1_2{
+    padding: 10px;
+}
+
+h1{
+    font-family: courier;
+    font-weight: normal;
+}
+
+h2{
+    font-family: courier;
+    font-weight: normal;
+    text-align:center;
+}
+
+h5{
+    margin-top: 3px;
+    text-align:center;
+}
+
+h6{
+    margin-top: 3px;
+    text-align:center;
+}
+
+span{
+    color: blue;
+    text-decoration: underline;
+}
